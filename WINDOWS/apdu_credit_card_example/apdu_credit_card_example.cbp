@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="apdu_credit_card_example" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/apdu_credit_card_example" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/wxWidgets-3.1.1/lib/gcc_dll/mswu" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:/wxWidgets-3.1.1/lib/gcc_dll/mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="libwxmsw31u.a" />
+					<Add directory="C:/wxWidgets-3.1.1/lib/gcc_dll" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/apdu_credit_card_example" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="C:/wxWidgets-3.1.1/lib/gcc_dll/mswu" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:/wxWidgets-3.1.1/lib/gcc_dll/mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libwxmsw31u.a" />
+					<Add directory="C:/wxWidgets-3.1.1/lib/gcc_dll" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-pipe" />
+			<Add option="-mthreads" />
+			<Add option="-D__GNUWIN32__" />
+			<Add option="-D__WXMSW__" />
+			<Add option="-DWXUSINGDLL" />
+			<Add option="-DwxUSE_UNICODE" />
+			<Add directory="C:/wxWidgets-3.1.1/include" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="C:/wxWidgets-3.1.1/include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-mthreads" />
+			<Add library="uFCoder-x86" />
+			<Add directory="lib/windows/x86" />
+		</Linker>
+		<Unit filename="../../../apdu_credit_card_example/conio_gnu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../apdu_credit_card_example/conio_gnu.h" />
+		<Unit filename="../../../apdu_credit_card_example/emv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../apdu_credit_card_example/emv.h" />
+		<Unit filename="../../../apdu_credit_card_example/ini.h" />
+		<Unit filename="../../../apdu_credit_card_example/iso3166.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../apdu_credit_card_example/iso3166.h" />
+		<Unit filename="../../../apdu_credit_card_example/iso4217.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../apdu_credit_card_example/iso4217.h" />
+		<Unit filename="../../../apdu_credit_card_example/uFR.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../apdu_credit_card_example/uFR.h" />
+		<Unit filename="../../../apdu_credit_card_example/utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../apdu_credit_card_example/utils.h" />
+		<Unit filename="apdu_credit_card_exampleApp.cpp" />
+		<Unit filename="apdu_credit_card_exampleApp.h" />
+		<Unit filename="apdu_credit_card_exampleMain.cpp" />
+		<Unit filename="apdu_credit_card_exampleMain.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="wxsmith/apdu_credit_card_exampleframe.wxs" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="apdu_credit_card_exampleApp.cpp" main="apdu_credit_card_exampleFrame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/apdu_credit_card_exampleframe.wxs" src="apdu_credit_card_exampleMain.cpp" hdr="apdu_credit_card_exampleMain.h" fwddecl="0" i18n="1" name="apdu_credit_card_exampleFrame" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
