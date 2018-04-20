@@ -1,6 +1,0 @@
-[submodule "LINUX/apdu_credit_card_example/ufr-lib"]
-	path = LINUX/apdu_credit_card_example/lib
-	url = https://git.d-logic.net/nfc-rfid-reader-sdk/ufr-lib.git
-[submodule "WINDOWS/apdu_credit_card_example/ufr-lib"]
-	path = WINDOWS/apdu_credit_card_example/lib
-	url = https://git.d-logic.net/nfc-rfid-reader-sdk/ufr-lib.git
